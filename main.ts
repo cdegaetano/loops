@@ -1,6 +1,6 @@
 music.setBuiltInSpeakerEnabled(true)
-let freqout = 1500
 let loopNum = 0
+let freqout = 1500
 serial.writeValue("Loop", loopNum)
 serial.writeValue("Frequency", freqout)
 basic.pause(100)
